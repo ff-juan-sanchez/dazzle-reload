@@ -1,5 +1,5 @@
 {
-  "name": "react-dazzle",
+  "name": "react-dazzle-reload",
   "version": "1.4.0",
   "description": "The simple yet flexible dashbording solution for React",
   "license": "MIT",
@@ -31,10 +31,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Raathigesh/dazzle.git"
+    "url": "https://github.com/ff-juan-sanchez/dazzle-reload"
   },
   "bugs": {
-    "url": "https://github.com/Raathigesh/dazzle/issues"
+    "url": "https://github.com/ff-juan-sanchez/dazzle-reload/issues"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
