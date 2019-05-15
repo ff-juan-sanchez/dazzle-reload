@@ -25,6 +25,8 @@
 </p>
 <br>
 
+# PORT FROM react-dazzle project due to data management issues.
+
 **Looking for maintainers https://github.com/Raathigesh/dazzle/issues/41**
 
 Dazzle is a library for building dashboards with React JS. Dazzle does not depend on any front-end libraries but it makes it easier to integrate with them.
