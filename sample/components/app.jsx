@@ -127,8 +127,10 @@ class App extends React.Component {
 
   widgetSelected = (widgetName) => {
     const { layout, rowIndex, columnIndex } = this.state.addWidgetOptions;
+    const [newLayout, newWidget] = addWidget(layout, rowIndex, columnIndex, widgetName);
+    newWidget.id;
     this.setState({
-      layout: addWidget(layout, rowIndex, columnIndex, widgetName),
+      layout: newLayout,
     });
     this.onRequestClose();
   }
