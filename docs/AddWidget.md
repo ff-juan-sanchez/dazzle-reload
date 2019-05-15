@@ -8,7 +8,7 @@ Below is a sample of adding a widget when `Add Widget` is clicked.
 
 ```javascript
 import React, { Component } from 'react';
-import Dashboard, { addWidget } from 'react-dazzle';
+import Dashboard, { addWidget } from 'react-dazzle-reload';
 import HelloWorld from './widgets/HelloWorld';
 
 class App extends Component {

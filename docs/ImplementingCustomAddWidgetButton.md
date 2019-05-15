@@ -26,7 +26,7 @@ A custom `AddWidget` component is just another React component. This component w
 
 ### How to let dazzle know about this?
 ```javascript
-import Dashboard from 'react-dazzle';
+import Dashboard from 'react-dazzle-reload';
 import CustomAddWidget from './CustomAddWidget';
 
 <Dashboard /* Other props goes here*/ addWidgetComponent={CustomAddWidget}  />

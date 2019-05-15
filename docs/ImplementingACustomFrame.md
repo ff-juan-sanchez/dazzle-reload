@@ -38,7 +38,7 @@ A custom frame is just another React component. Custom frame will be provided wi
 Well, it's extremely simple.
 
 ```javascript
-import Dashboard from 'react-dazzle';
+import Dashboard from 'react-dazzle-reload';
 import CustomFrame from './CustomFrame';
 
 <Dashboard /* Other props goes here*/ frameComponent={CustomFrame}  />

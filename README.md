@@ -54,13 +54,13 @@ $ npm install react-dazzle --save
 ## Usage
 ```javascript
 import React, { Component } from 'react';
-import Dashboard from 'react-dazzle';
+import Dashboard from 'react-dazzle-reload';
 
 // Your widget. Just another react component.
 import CounterWidget from './widgets/CounterWidget';
 
 // Default styles.
-import 'react-dazzle/lib/style/style.css';
+import 'react-dazzle-reload/lib/style/style.css';
 
 class App extends Component {
   constructor() {
@@ -93,7 +93,7 @@ So you may want to use react-dnd in your React component hierarchy upper than wh
 So forth please use the _DashboardWithoutDndContext_ component of Dazzle and wrapped your own component with _DragDropContext(HTML5Backend)_:
 ```javascript
 import React, { Component } from 'react';
-import { DashboardWithoutDndContext } from 'react-dazzle';
+import { DashboardWithoutDndContext } from 'react-dazzle-reload';
 
 // react-dnd
 import { DragDropContext } from 'react-dnd';
@@ -103,7 +103,7 @@ import HTML5Backend from 'react-dnd-html5-backend';
 import CounterWidget from './widgets/CounterWidget';
 
 // Default styles.
-import 'react-dazzle/lib/style/style.css';
+import 'react-dazzle-reload/lib/style/style.css';
 
 class App extends Component {
   constructor() {
