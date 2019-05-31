@@ -24,7 +24,7 @@ class App extends React.Component {
         rows: [{
           columns: [{
             className: 'col-md-4 col-sm-6 col-xs-6',
-            widgets: [{ key: 'RocketWidget' }, { key: 'AlienWidget' }, { key: 'RocketWidget' }],
+            widgets: [{ key: 'RocketWidget' }, { key: 'AlienWidget', id: 'AnotherWidget-0-0-1' }, { key: 'RocketWidget' }],
           }, {
             className: 'col-md-4 col-sm-6 col-xs-6',
             widgets: [{ key: 'RocketWidget' }],
@@ -93,9 +93,12 @@ class App extends React.Component {
   render() {
     /* eslint max-len: "off" */
     const data = {
-      'AnotherWidget-0-0-1': [{
-        value: 1000,
-      }],
+      'AnotherWidget-0-0-1': {
+        data: [{
+          value: 1000,
+        }],
+        title: 'Some big title to show',
+      },
       'HelloWorld-0-1-0': {
         myValue: 1000,
       },
