@@ -24,24 +24,24 @@ class App extends React.Component {
         rows: [{
           columns: [{
             className: 'col-md-4 col-sm-6 col-xs-6',
-            widgets: [{ key: 'RocketWidget' }, { key: 'AlienWidget', id: 'AnotherWidget-0-0-1' }, { key: 'RocketWidget' }],
+            widgets: [{ key: 'RocketWidget', id: 'AnotherWidget-0-0-0' }, { key: 'AlienWidget', id: 'AnotherWidget-0-0-1' }, { key: 'RocketWidget', id: 'AnotherWidget-0-0-2' }],
           }, {
             className: 'col-md-4 col-sm-6 col-xs-6',
-            widgets: [{ key: 'RocketWidget' }],
+            widgets: [{ key: 'RocketWidget', id: 'AnotherWidget-0-1-0' }],
           }, {
             className: 'col-md-4 col-sm-6 col-xs-6',
-            widgets: [{ key: 'RocketWidget' }],
+            widgets: [{ key: 'RocketWidget', id: 'AnotherWidget-0-2-0' }],
           }],
         }, {
           columns: [{
             className: 'col-md-4 col-sm-6 col-xs-6',
-            widgets: [{ key: 'RocketWidget' }],
+            widgets: [{ key: 'RocketWidget', id: 'AnotherWidget-1-0-0' }],
           }, {
             className: 'col-md-4 col-sm-6 col-xs-6',
-            widgets: [{ key: 'RocketWidget' }],
+            widgets: [{ key: 'RocketWidget', id: 'AnotherWidget-1-1-0' }],
           }, {
             className: 'col-md-4 col-sm-6 col-xs-6',
-            widgets: [{ key: 'RocketWidget' }],
+            widgets: [{ key: 'RocketWidget', id: 'AnotherWidget-1-2-0' }],
           }],
         }],
       },
@@ -99,8 +99,9 @@ class App extends React.Component {
         }],
         title: 'Some big title to show',
       },
-      'HelloWorld-0-1-0': {
+      'AnotherWidget-0-0-0': {
         myValue: 1000,
+        title: 'Another title',
       },
     };
     return (
