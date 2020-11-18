@@ -74,7 +74,7 @@
     "react-hot-loader": "^4.0.0",
     "react-modal": "^3.3.2",
     "rimraf": "^2.6.2",
-    "semantic-release": "^15.1.4",
+    "semantic-release": "^17.2.3",
     "sinon": "^4.4.9",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.20.3",
